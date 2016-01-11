@@ -5,67 +5,12 @@
         <param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin" />
         <param name="onload" value="true" />
     </feature>
-    <name>Mooc BigData</name>
-    <description>
-        In de gratis online cursus 'Aan de slag met Big Data. Denk groot start klein' 
-	(MOOC) leer je in 4 korte afleveringen wat big data is, 
-	welke trends en technieken er zijn en hoe je als ondernemer de eerste 
-	stappen kunt zetten. Met docent Mark van Rijmenam en experts van de 
-	Kamer van Koophandel, TNO, het Big Data Value Centre en ECP | Platform voor de InformatieSamenleving.
-	De MOOC Big Data is een initiatief van de Doorbraak Big Data, 
-	de Kamer van Koophandel, TNO, het Big Data Value Centre, Surfsara en het 
-	Ministerie van Economische Zaken.
-    </description>
-    <preference name="orientation" value="default" />
-    <preference name="webviewbounce" value="true" />
-    <preference name="stay-in-webview" value="false" />
-    <gap:plugin name="org.apache.cordova.battery-status" />
-    <gap:plugin name="org.apache.cordova.camera" />
-    <gap:plugin name="org.apache.cordova.media-capture" />
-    <gap:plugin name="org.apache.cordova.console" />
-    <gap:plugin name="org.apache.cordova.contacts" />
-    <gap:plugin name="org.apache.cordova.device" />
-    <gap:plugin name="org.apache.cordova.device-motion" />
-    <gap:plugin name="org.apache.cordova.device-orientation" />
-    <gap:plugin name="org.apache.cordova.dialogs" />
-    <gap:plugin name="org.apache.cordova.file" />
-    <gap:plugin name="org.apache.cordova.file-transfer" />
-    <gap:plugin name="org.apache.cordova.geolocation" />
-    <gap:plugin name="org.apache.cordova.globalization" />
-    <gap:plugin name="org.apache.cordova.inappbrowser" />
-    <gap:plugin name="org.apache.cordova.media" />
-    <gap:plugin name="org.apache.cordova.network-information" />
-    <gap:plugin name="org.apache.cordova.splashscreen" />
-    <gap:plugin name="org.apache.cordova.vibration" />
-    <icon gap:platform="blackberry" src="www/res/icon/blackberry/icon-80.png" />
-    <icon gap:platform="blackberry" gap:state="hover" src="www/res/icon/blackberry/icon-80.png" />
-    <icon gap:platform="webos" src="www/res/icon/webos/icon-64.png" />
-    <icon gap:platform="winphone" src="www/res/icon/windows-phone/icon-48.png" />
-    <icon gap:platform="winphone" gap:role="background" src="www/res/icon/windows-phone/icon-173-tile.png" />
-    <gap:splash gap:platform="blackberry" src="www/res/screen/blackberry/screen-225.png" />
-    <gap:splash gap:platform="ios" height="960" src="www/res/screen/ios/screen-iphone-portrait-2x.png" width="640" />
-    <gap:splash gap:platform="ios" height="1136" src="www/res/screen/ios/screen-iphone-portrait-568h-2x.png" width="640" />
-    <gap:splash gap:platform="ios" height="1024" src="www/res/screen/ios/screen-ipad-portrait.png" width="768" />
-    <gap:splash gap:platform="ios" height="768" src="www/res/screen/ios/screen-ipad-landscape.png" width="1024" />
-    <gap:splash gap:platform="winphone" src="www/res/screen/windows-phone/screen-portrait.jpg" />
     <feature name="Compass">
         <param name="android-package" value="org.apache.cordova.deviceorientation.CompassListener" />
     </feature>
     <feature name="InAppBrowser">
         <param name="android-package" value="org.apache.cordova.inappbrowser.InAppBrowser" />
     </feature>
-    <description>
-        In de gratis online cursus 'Aan de slag met Big Data. Denk groot start klein'
-	(MOOC) leer je in 4 korte afleveringen wat big data is,
-	welke trends en technieken er zijn en hoe je als ondernemer de eerste
-	stappen kunt zetten. Met docent Mark van Rijmenam en experts van de
-	Kamer van Koophandel, TNO, het Big Data Value Centre en ECP | Platform voor de InformatieSamenleving.
-	De MOOC Big Data is een initiatief van de Doorbraak Big Data,
-	de Kamer van Koophandel, TNO, het Big Data Value Centre, Surfsara en het
-	Ministerie van Economische Zaken.
-    </description>
-    <splash src="splash.png" />
-    <gap:splash gap:platform="ios" height="480" src="www/res/screen/ios/screen-iphone-portrait.png" width="320" />
     <feature name="Battery">
         <param name="android-package" value="org.apache.cordova.batterystatus.BatteryListener" />
     </feature>
@@ -143,6 +88,10 @@
     <preference name="android-installLocation" value="auto" />
     <preference name="AllowInlineMediaPlayback" value="true" />
     <preference name="MediaPlaybackRequiresUserAction" value="false" />
+    <gap:plugin name="org.apache.cordova.device" />
+    <gap:plugin name="org.apache.cordova.device-motion" />
+    <gap:plugin name="org.apache.cordova.device-orientation" />
+    <gap:plugin name="org.apache.cordova.splashscreen" />
     <icon src="icon.png" />
     <icon gap:platform="android" gap:qualifier="ldpi" src="www/res/icon/android/icon-36-ldpi.png" />
     <icon gap:platform="android" gap:qualifier="mdpi" src="www/res/icon/android/icon-48-mdpi.png" />
@@ -152,17 +101,20 @@
     <icon gap:platform="ios" height="72" src="www/res/icon/ios/icon-72.png" width="72" />
     <icon gap:platform="ios" height="114" src="www/res/icon/ios/icon-57-2x.png" width="114" />
     <icon gap:platform="ios" height="144" src="www/res/icon/ios/icon-72-2x.png" width="144" />
-    <gap:splash gap:platform="android" gap:qualifier="port-ldpi" src="www/res/screen/android/screen-ldpi-portrait.png" />
-    <gap:splash gap:platform="android" gap:qualifier="port-mdpi" src="www/res/screen/android/screen-mdpi-portrait.png" />
-    <gap:splash gap:platform="android" gap:qualifier="port-hdpi" src="www/res/screen/android/screen-hdpi-portrait.png" />
-    <gap:splash gap:platform="android" gap:qualifier="port-xhdpi" src="www/res/screen/android/screen-xhdpi-portrait.png" />
-    <splash src="www/res/screen/ios/screen-iphone-landscape.png" />
-    <gap:splash gap:platform="ios" height="480" src="www/res/screen/ios/screen-iphone-landscape.png" width="320" />
-    <gap:splash gap:platform="ios" height="320" src="www/res/screen/ios/screen-iphone-landscape.png" width="420" />
+    <gap:splash gap:density="xhdpi" gap:platform="android" src="res/screen/android/screen-xhdpi-portrait.png" />
+    <gap:splash gap:density="xhdpi" gap:platform="android" src="res/screen/android/screen-xhdpi-n7-portrait.png" />
+    <gap:splash gap:density="hdpi" gap:platform="android" src="res/screen/android/screen-hdpi-portrait.png" />
+    <gap:splash gap:density="mdpi" gap:platform="android" src="res/screen/android/screen-mdpi-portrait.png" />
+    <gap:splash gap:density="ldpi" gap:platform="android" src="res/screen/android/screen-ldpi-portrait.png" />
+    <gap:splash gap:density="xhdpi" gap:platform="android" height="800" src="res/screen/android/screen-xhdpi-n7-landscape.png" width="1280" />
+    <gap:splash gap:density="xhdpi" gap:platform="android" height="720" src="res/screen/android/screen-xhdpi-landscape.png" width="1280" />
+    <gap:splash gap:density="hdpi" gap:platform="android" height="480" src="res/screen/android/screen-hdpi-landscape.png" width="800" />
+    <gap:splash gap:density="mdpi" gap:platform="android" height="320" src="res/screen/android/screen-mdpi-landscape.png" width="480" />
+    <gap:splash gap:density="ldpi" gap:platform="android" height="200" src="res/screen/android/screen-ldpi-landscape.png" width="320" />
+    <splash src="www/res/screen/ios/screen-iphone-portrait.png" />
+    <gap:splash gap:platform="ios" height="480" src="www/res/screen/ios/screen-iphone-portrait.png" width="320" />
     <gap:splash gap:platform="ios" height="960" src="www/res/screen/screen-iphone-portrait-2x.png" width="640" />
-    <gap:splash gap:platform="ios" height="640" src="www/res/screen/screen-iphone-landscape-2x.png" width="960" />
     <gap:splash gap:platform="ios" height="1136" src="www/res/screen/screen-iphone-portrait-568h-2x.png" width="640" />
-    <gap:splash gap:platform="ios" height="640" src="www/res/screen/screen-iphone-landscape-568h-2x.png" width="1136" />
     <gap:splash gap:platform="ios" height="1004" src="www/res/screen/ios/screen-ipad-portrait.png" width="768" />
     <gap:splash gap:platform="ios" height="783" src="www/res/screen/ios/screen-ipad-landscape.png" width="1024" />
     <gap:splash gap:platform="ios" height="2008" src="www/res/screen/ios/screen-ipad-portrait.png" width="1536" />
