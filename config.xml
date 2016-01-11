@@ -74,9 +74,9 @@
     <gap:splash gap:platform="android" gap:qualifier="port-xhdpi" src="www/res/screen/android/screen-xhdpi-portrait.png" />
 
 
-    <splash src="splash.png" />
+    <splash src="www/res/screen/ios/screen-iphone-landscape.png" />
 
-    <gap:splash src="www/res/screen/ios/screen-iphone-portrait.png" gap:platform="ios" width="320" height="480" />
+    <gap:splash src="www/res/screen/ios/screen-iphone-landscape.png" gap:platform="ios" width="320" height="480" />
     <gap:splash src="www/res/screen/ios/screen-iphone-landscape.png" gap:platform="ios" width="420" height="320" />
 
     <gap:splash src="www/res/screen/screen-iphone-portrait-2x.png" gap:platform="ios" width="640" height="960" />
