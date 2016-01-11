@@ -11,8 +11,8 @@
 	de Kamer van Koophandel, TNO, het Big Data Value Centre, Surfsara en het
 	Ministerie van Economische Zaken.
     </description>
-    <author email="support@phonegap.com" href="http://phonegap.com">
-        PhoneGap Team
+    <author email="info@sense-studios.com" href="http://www.sense-studios.com">
+        Sense Studios
     </author>
     <content src="http://www.movietrader.tv/clipcard/563a006061366500134f0400" />
     <!-- <content src="index.html" /> -->
@@ -44,13 +44,16 @@
     <gap:plugin name="org.apache.cordova.contacts" />
     <gap:plugin name="org.apache.cordova.device" />
     <gap:plugin name="org.apache.cordova.device-motion" />
+    <gap:plugin name="org.apache.cordova.device-orientation" />
     <gap:plugin name="org.apache.cordova.dialogs" />
     <gap:plugin name="org.apache.cordova.file" />
     <gap:plugin name="org.apache.cordova.file-transfer" />
     <gap:plugin name="org.apache.cordova.geolocation" />
     <gap:plugin name="org.apache.cordova.globalization" />
+    <gap:plugin name="org.apache.cordova.inappbrowser" />
     <gap:plugin name="org.apache.cordova.media" />
     <gap:plugin name="org.apache.cordova.network-information" />
+    <gap:plugin name="org.apache.cordova.splashscreen" />
     <gap:plugin name="org.apache.cordova.vibration" />
 
     <icon src="icon.png" />
