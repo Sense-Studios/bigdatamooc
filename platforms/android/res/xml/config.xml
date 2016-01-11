@@ -54,6 +54,62 @@
     <feature name="InAppBrowser">
         <param name="android-package" value="org.apache.cordova.inappbrowser.InAppBrowser" />
     </feature>
+    <description>
+        In de gratis online cursus 'Aan de slag met Big Data. Denk groot start klein'
+	(MOOC) leer je in 4 korte afleveringen wat big data is,
+	welke trends en technieken er zijn en hoe je als ondernemer de eerste
+	stappen kunt zetten. Met docent Mark van Rijmenam en experts van de
+	Kamer van Koophandel, TNO, het Big Data Value Centre en ECP | Platform voor de InformatieSamenleving.
+	De MOOC Big Data is een initiatief van de Doorbraak Big Data,
+	de Kamer van Koophandel, TNO, het Big Data Value Centre, Surfsara en het
+	Ministerie van Economische Zaken.
+    </description>
+    <splash src="splash.png" />
+    <gap:splash gap:platform="ios" height="480" src="www/res/screen/ios/screen-iphone-portrait.png" width="320" />
+    <feature name="Battery">
+        <param name="android-package" value="org.apache.cordova.batterystatus.BatteryListener" />
+    </feature>
+    <feature name="Camera">
+        <param name="android-package" value="org.apache.cordova.camera.CameraLauncher" />
+    </feature>
+    <feature name="Contacts">
+        <param name="android-package" value="org.apache.cordova.contacts.ContactManager" />
+    </feature>
+    <feature name="Device">
+        <param name="android-package" value="org.apache.cordova.device.Device" />
+    </feature>
+    <feature name="Accelerometer">
+        <param name="android-package" value="org.apache.cordova.devicemotion.AccelListener" />
+    </feature>
+    <feature name="Notification">
+        <param name="android-package" value="org.apache.cordova.dialogs.Notification" />
+    </feature>
+    <feature name="File">
+        <param name="android-package" value="org.apache.cordova.file.FileUtils" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="FileTransfer">
+        <param name="android-package" value="org.apache.cordova.filetransfer.FileTransfer" />
+    </feature>
+    <feature name="Globalization">
+        <param name="android-package" value="org.apache.cordova.globalization.Globalization" />
+    </feature>
+    <feature name="Media">
+        <param name="android-package" value="org.apache.cordova.media.AudioHandler" />
+    </feature>
+    <feature name="Capture">
+        <param name="android-package" value="org.apache.cordova.mediacapture.Capture" />
+    </feature>
+    <feature name="NetworkStatus">
+        <param name="android-package" value="org.apache.cordova.networkinformation.NetworkManager" />
+    </feature>
+    <feature name="SplashScreen">
+        <param name="android-package" value="org.apache.cordova.splashscreen.SplashScreen" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="Vibration">
+        <param name="android-package" value="org.apache.cordova.vibration.Vibration" />
+    </feature>
     <allow-intent href="market:*" />
     <name>Mooc Big Data</name>
     <description>
@@ -66,8 +122,8 @@
 	de Kamer van Koophandel, TNO, het Big Data Value Centre, Surfsara en het
 	Ministerie van Economische Zaken.
     </description>
-    <author email="support@phonegap.com" href="http://phonegap.com">
-        PhoneGap Team
+    <author email="info@sense-studios.com" href="http://www.sense-studios.com">
+        Sense Studios
     </author>
     <content src="http://www.movietrader.tv/clipcard/563a006061366500134f0400" />
     <preference name="permissions" value="none" />
@@ -100,8 +156,8 @@
     <gap:splash gap:platform="android" gap:qualifier="port-mdpi" src="www/res/screen/android/screen-mdpi-portrait.png" />
     <gap:splash gap:platform="android" gap:qualifier="port-hdpi" src="www/res/screen/android/screen-hdpi-portrait.png" />
     <gap:splash gap:platform="android" gap:qualifier="port-xhdpi" src="www/res/screen/android/screen-xhdpi-portrait.png" />
-    <splash src="splash.png" />
-    <gap:splash gap:platform="ios" height="480" src="www/res/screen/ios/screen-iphone-portrait.png" width="320" />
+    <splash src="www/res/screen/ios/screen-iphone-landscape.png" />
+    <gap:splash gap:platform="ios" height="480" src="www/res/screen/ios/screen-iphone-landscape.png" width="320" />
     <gap:splash gap:platform="ios" height="320" src="www/res/screen/ios/screen-iphone-landscape.png" width="420" />
     <gap:splash gap:platform="ios" height="960" src="www/res/screen/screen-iphone-portrait-2x.png" width="640" />
     <gap:splash gap:platform="ios" height="640" src="www/res/screen/screen-iphone-landscape-2x.png" width="960" />
