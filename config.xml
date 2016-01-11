@@ -27,7 +27,7 @@
     <preference name="ios-statusbarstyle" value="black-opaque" />
     <preference name="detect-data-types" value="true" />
     <preference name="exit-on-suspend" value="false" />
-    <preference name="show-splash-screen-spinner" value="true" />
+    <preference name="show-splash-screen-spinner" value="false" />
     <preference name="auto-hide-splash-screen" value="true" />
     <preference name="disable-cursor" value="false" />
     <preference name="android-minSdkVersion" value="14" />
@@ -106,7 +106,7 @@
 
     <splash src="www/res/screen/ios/screen-iphone-landscape.png" />
 
-    <gap:splash src="www/res/screen/ios/screen-iphone-landscape.png" gap:platform="ios" width="320" height="480" />
+    <gap:splash src="www/res/screen/ios/screen-iphone-portrait.png" gap:platform="ios" width="320" height="480" />
     <gap:splash src="www/res/screen/ios/screen-iphone-landscape.png" gap:platform="ios" width="420" height="320" />
 
     <gap:splash src="www/res/screen/screen-iphone-portrait-2x.png" gap:platform="ios" width="640" height="960" />
