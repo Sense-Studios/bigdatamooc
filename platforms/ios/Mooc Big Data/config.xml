@@ -108,6 +108,11 @@
     <gap:plugin name="org.apache.cordova.device-motion" />
     <gap:plugin name="org.apache.cordova.device-orientation" />
     <gap:plugin name="org.apache.cordova.splashscreen" />
+    <gap:config-file overwrite="true" parent="UISupportedInterfaceOrientations" platform="ios">
+        <array>
+            <string>UIInterfaceOrientationLandscapeRight</string>
+        </array>
+    </gap:config-file>
     <icon src="icon.png" />
     <icon gap:platform="android" gap:qualifier="ldpi" src="www/res/icon/android/icon-36-ldpi.png" />
     <icon gap:platform="android" gap:qualifier="mdpi" src="www/res/icon/android/icon-48-mdpi.png" />
@@ -121,13 +126,9 @@
     <gap:splash gap:platform="android" gap:qualifier="port-mdpi" src="www/res/screen/android/screen-mdpi-portrait.png" />
     <gap:splash gap:platform="android" gap:qualifier="port-hdpi" src="www/res/screen/android/screen-hdpi-portrait.png" />
     <gap:splash gap:platform="android" gap:qualifier="port-xhdpi" src="www/res/screen/android/screen-xhdpi-portrait.png" />
-    <splash src="www/res/screen/ios/screen-iphone-landscape.png" />
-    <gap:splash gap:platform="ios" height="480" src="www/res/screen/ios/screen-iphone-landscape.png" width="320" />
-    <gap:splash gap:platform="ios" height="320" src="www/res/screen/ios/screen-iphone-landscape.png" width="420" />
+    <gap:splash gap:platform="ios" height="480" src="www/res/screen/ios/screen-iphone-portrait.png" width="320" />
     <gap:splash gap:platform="ios" height="960" src="www/res/screen/screen-iphone-portrait-2x.png" width="640" />
-    <gap:splash gap:platform="ios" height="640" src="www/res/screen/screen-iphone-landscape-2x.png" width="960" />
     <gap:splash gap:platform="ios" height="1136" src="www/res/screen/screen-iphone-portrait-568h-2x.png" width="640" />
-    <gap:splash gap:platform="ios" height="640" src="www/res/screen/screen-iphone-landscape-568h-2x.png" width="1136" />
     <gap:splash gap:platform="ios" height="1004" src="www/res/screen/ios/screen-ipad-portrait.png" width="768" />
     <gap:splash gap:platform="ios" height="783" src="www/res/screen/ios/screen-ipad-landscape.png" width="1024" />
     <gap:splash gap:platform="ios" height="2008" src="www/res/screen/ios/screen-ipad-portrait.png" width="1536" />
