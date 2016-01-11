@@ -82,9 +82,10 @@
   <plugin name="org.apache.cordova.vibration" source="pgb" spec="0.3.13" />
   -->
   <gap:config-file platform="ios" parent="UISupportedInterfaceOrientations" overwrite="true">
-<array>
-    <string>UIInterfaceOrientationLandscapeRight</string>
-</array>
+    <array>
+      <string>UIInterfaceOrientationLandscapeRight</string>
+    </array>
+  </gap:config-file>
 
   <feature name="SplashScreen">
        <param name="ios-package" value="CDVSplashScreen" />
