@@ -1,0 +1,21 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "nl.sensestudios.marduq.moocbigdata"
+        },
+        "org.apache.cordova.device-orientation": {
+            "PACKAGE_NAME": "nl.sensestudios.marduq.moocbigdata"
+        },
+        "org.apache.cordova.inappbrowser": {
+            "PACKAGE_NAME": "nl.sensestudios.marduq.moocbigdata"
+        }
+    },
+    "dependent_plugins": {}
+}
