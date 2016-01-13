@@ -14,7 +14,7 @@
     <author email="info@movietrader.tv" href="http://www.movietrader.nl">
         Movietrader
     </author>
-    <content src="http://nabu.sense-studios.com/apps/ecp" />
+    <content src="http://www.marduq.tv/apps/ecp" />
     <!-- <content src="index.html" /> -->
 
     <preference name="permissions" value="none" />
