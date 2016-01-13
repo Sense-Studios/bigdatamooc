@@ -14,14 +14,14 @@
     <author email="info@movietrader.tv" href="http://www.movietrader.nl">
         Movietrader
     </author>
-    <content src="http://www.movietrader.tv/clipcard/563a006061366500134f0400" />
+    <content src="http://nabu.sense-studios.com/apps/ecp" />
     <!-- <content src="index.html" /> -->
 
     <preference name="permissions" value="none" />
     <preference name="orientation" value="landscape" />
     <preference name="target-device" value="universal" />
     <preference name="fullscreen" value="true" />
-    <preference name="webviewbounce" value="false" />
+    <preference name="webviewbounce" value="true" />
     <preference name="prerendered-icon" value="true" />
     <preference name="stay-in-webview" value="true" />
     <preference name="ios-statusbarstyle" value="black-opaque" />
