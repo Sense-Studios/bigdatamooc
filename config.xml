@@ -57,8 +57,10 @@
   <gap:plugin name="org.apache.cordova.device" />
   <gap:plugin name="org.apache.cordova.device-motion" />
   <gap:plugin name="org.apache.cordova.device-orientation" />
-  <gap:plugin name="org.apache.cordova.splashscreen" />
 
+  <!--
+  <gap:plugin name="org.apache.cordova.splashscreen" />
+  -->
 
   <!--
   <plugin name="cordova-plugin-whitelist" spec="1.2.0" />
