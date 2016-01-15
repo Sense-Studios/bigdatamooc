@@ -1,5 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="nl.sensestudios.marduq.moocbigdata" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+
     <name>Mooc Big Data</name>
     <description>
         In de gratis online cursus 'Aan de slag met Big Data. Denk groot start klein'
@@ -60,6 +61,21 @@
     <icon gap:platform="ios" height="144" src="www/res/icon/ios/icon-72-2x.png" width="144" />
     <icon gap:platform="ios" height="152" src="www/res/icon/ios/icon-152.png" width="152" />
 
+    <platform name="ios">
+        <!-- images are determined by width and height. The following are supported -->
+        <splash src="www/res/screen/ios/Default-568h@2x~iphone.png" width="640" height="1136"/>
+        <splash src="www/res/screen/ios/Default~iphone.png" width="320" height="480"/>
+        <splash src="www/res/screen/ios/Default@2x~iphone.png" width="640" height="960"/>
+        <splash src="www/res/screen/ios/Default-Portrait~ipad.png" width="768" height="1024"/>
+        <splash src="www/res/screen/ios/Default-Portrait@2x~ipad.png" width="1536" height="2048"/>
+        <splash src="www/res/screen/ios/Default-Landscape~ipad.png" width="1024" height="768"/>
+        <splash src="www/res/screen/ios/Default-Landscape@2x~ipad.png" width="2048" height="1536"/>        
+        <splash src="www/res/screen/ios/Default-667h.png" width="750" height="1334"/>
+        <splash src="www/res/screen/ios/Default-736h.png" width="1242" height="2208"/>
+        <splash src="www/res/screen/ios/Default-Landscape-736h.png" width="2208" height="1242"/>
+    </platform>
+
+    <!--
     <gap:splash src="res/screen/ios/Default~iphone.png" gap:platform="ios" width="320" height="480" />
     <gap:splash src="res/screen/ios/Default@2x~iphone.png" gap:platform="ios" width="640" height="960" />
     <gap:splash src="res/screen/ios/Default-Portrait~ipad.png" gap:platform="ios" width="768" height="1024" />
@@ -70,6 +86,7 @@
     <gap:splash src="res/screen/ios/Default-667h.png" gap:platform="ios" width="750" height="1334" />
     <gap:splash src="res/screen/ios/Default-736h.png" gap:platform="ios" width="1242" height="2208" />
     <gap:splash src="res/screen/ios/Default-Landscape-736h.png" gap:platform="ios" width="2208" height="1242" />
+    -->
 
     <gap:splash src="res/screen/android/screen-xhdpi-portrait.png" gap:platform="android" gap:density="xhdpi" />
     <gap:splash src="res/screen/android/screen-xhdpi-n7-portrait.png" gap:platform="android" gap:density="xhdpi" />
