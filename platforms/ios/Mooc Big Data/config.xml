@@ -70,6 +70,16 @@
     <feature name="Vibration">
         <param name="ios-package" value="CDVVibration" />
     </feature>
+    <splash height="480" src="res/screen/ios/Default~iphone.png" width="320" />
+    <splash height="960" src="res/screen/ios/Default@2x~iphone.png" width="640" />
+    <splash height="1024" src="res/screen/ios/Default-Portrait~ipad.png" width="768" />
+    <splash height="2048" src="res/screen/ios/Default-Portrait@2x~ipad.png" width="1536" />
+    <splash height="768" src="res/screen/ios/Default-Landscape~ipad.png" width="1024" />
+    <splash height="1536" src="res/screen/ios/Default-Landscape@2x~ipad.png" width="2048" />
+    <splash height="1136" src="res/screen/ios/Default-568h@2x~iphone.png" width="640" />
+    <splash height="1334" src="res/screen/ios/Default-667h.png" width="750" />
+    <splash height="2208" src="res/screen/ios/Default-736h.png" width="1242" />
+    <splash height="1242" src="res/screen/ios/Default-Landscape-736h.png" width="2208" />
     <allow-intent href="itms:*" />
     <allow-intent href="itms-apps:*" />
     <name>Mooc Big Data</name>
@@ -115,29 +125,11 @@
     <icon gap:platform="android" gap:qualifier="xhdpi" src="www/res/icon/android/icon-96-xhdpi.png" />
     <icon gap:platform="ios" height="57" src="www/res/icon/ios/icon-57.png" width="57" />
     <icon gap:platform="ios" height="72" src="www/res/icon/ios/icon-72.png" width="72" />
-    <icon gap:platform="ios" height="76" src="www/res/icon/ios/icon-76" width="76" />
+    <icon gap:platform="ios" height="76" src="www/res/icon/ios/icon-76.png" width="76" />
     <icon gap:platform="ios" height="114" src="www/res/icon/ios/icon-57-2x.png" width="114" />
     <icon gap:platform="ios" height="120" src="www/res/icon/ios/icon-120.png" width="120" />
     <icon gap:platform="ios" height="144" src="www/res/icon/ios/icon-72-2x.png" width="144" />
     <icon gap:platform="ios" height="152" src="www/res/icon/ios/icon-152.png" width="152" />
-    <gap:splash gap:density="xhdpi" gap:platform="android" src="res/screen/android/screen-xhdpi-portrait.png" />
-    <gap:splash gap:density="xhdpi" gap:platform="android" src="res/screen/android/screen-xhdpi-n7-portrait.png" />
-    <gap:splash gap:density="hdpi" gap:platform="android" src="res/screen/android/screen-hdpi-portrait.png" />
-    <gap:splash gap:density="mdpi" gap:platform="android" src="res/screen/android/screen-mdpi-portrait.png" />
-    <gap:splash gap:density="ldpi" gap:platform="android" src="res/screen/android/screen-ldpi-portrait.png" />
-    <gap:splash gap:density="xhdpi" gap:platform="android" height="800" src="res/screen/android/screen-xhdpi-n7-landscape.png" width="1280" />
-    <gap:splash gap:density="xhdpi" gap:platform="android" height="720" src="res/screen/android/screen-xhdpi-landscape.png" width="1280" />
-    <gap:splash gap:density="hdpi" gap:platform="android" height="480" src="res/screen/android/screen-hdpi-landscape.png" width="800" />
-    <gap:splash gap:density="mdpi" gap:platform="android" height="320" src="res/screen/android/screen-mdpi-landscape.png" width="480" />
-    <gap:splash gap:density="ldpi" gap:platform="android" height="200" src="res/screen/android/screen-ldpi-landscape.png" width="320" />
-    <splash src="www/res/screen/ios/screen-iphone-portrait.png" />
-    <gap:splash gap:platform="ios" height="480" src="www/res/screen/ios/screen-iphone-portrait.png" width="320" />
-    <gap:splash gap:platform="ios" height="960" src="www/res/screen/screen-iphone-portrait@2x.png" width="640" />
-    <gap:splash gap:platform="ios" height="1136" src="www/res/screen/screen-iphone-portrait-568h@2x.png" width="640" />
-    <gap:splash gap:platform="ios" height="1004" src="www/res/screen/ios/screen-ipad-portrait.png" width="768" />
-    <gap:splash gap:platform="ios" height="783" src="www/res/screen/ios/screen-ipad-landscape.png" width="1024" />
-    <gap:splash gap:platform="ios" height="2008" src="www/res/screen/ios/screen-ipad-portrait.png" width="1536" />
-    <gap:splash gap:platform="ios" height="1536" src="www/res/screen/ios/screen-ipad-landscape@2x.png" width="2008" />
     <access origin="*" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
