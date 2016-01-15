@@ -98,6 +98,7 @@
     <preference name="detect-data-types" value="true" />
     <preference name="exit-on-suspend" value="false" />
     <preference name="SplashScreen" value="screen" />
+    <preference name="SplashScreenDelay" value="3000" />
     <preference name="show-splash-screen-spinner" value="true" />
     <preference name="auto-hide-splash-screen" value="true" />
     <preference name="disable-cursor" value="false" />
@@ -105,9 +106,6 @@
     <preference name="android-installLocation" value="auto" />
     <preference name="AllowInlineMediaPlayback" value="true" />
     <preference name="MediaPlaybackRequiresUserAction" value="false" />
-    <gap:plugin name="org.apache.cordova.device" />
-    <gap:plugin name="org.apache.cordova.device-motion" />
-    <gap:plugin name="org.apache.cordova.device-orientation" />
     <icon src="icon.png" />
     <icon gap:platform="android" gap:qualifier="ldpi" src="www/res/icon/android/icon-36-ldpi.png" />
     <icon gap:platform="android" gap:qualifier="mdpi" src="www/res/icon/android/icon-48-mdpi.png" />
@@ -120,16 +118,6 @@
     <icon gap:platform="ios" height="120" src="www/res/icon/ios/icon-120.png" width="120" />
     <icon gap:platform="ios" height="144" src="www/res/icon/ios/icon-72-2x.png" width="144" />
     <icon gap:platform="ios" height="152" src="www/res/icon/ios/icon-152.png" width="152" />
-    <gap:splash gap:density="xhdpi" gap:platform="android" src="res/screen/android/screen-xhdpi-portrait.png" />
-    <gap:splash gap:density="xhdpi" gap:platform="android" src="res/screen/android/screen-xhdpi-n7-portrait.png" />
-    <gap:splash gap:density="hdpi" gap:platform="android" src="res/screen/android/screen-hdpi-portrait.png" />
-    <gap:splash gap:density="mdpi" gap:platform="android" src="res/screen/android/screen-mdpi-portrait.png" />
-    <gap:splash gap:density="ldpi" gap:platform="android" src="res/screen/android/screen-ldpi-portrait.png" />
-    <gap:splash gap:density="xhdpi" gap:platform="android" height="800" src="res/screen/android/screen-xhdpi-n7-landscape.png" width="1280" />
-    <gap:splash gap:density="xhdpi" gap:platform="android" height="720" src="res/screen/android/screen-xhdpi-landscape.png" width="1280" />
-    <gap:splash gap:density="hdpi" gap:platform="android" height="480" src="res/screen/android/screen-hdpi-landscape.png" width="800" />
-    <gap:splash gap:density="mdpi" gap:platform="android" height="320" src="res/screen/android/screen-mdpi-landscape.png" width="480" />
-    <gap:splash gap:density="ldpi" gap:platform="android" height="200" src="res/screen/android/screen-ldpi-landscape.png" width="320" />
     <gap:splash gap:platform="ios" height="480" src="res/screen/ios/Default~iphone.png" width="320" />
     <gap:splash gap:platform="ios" height="960" src="res/screen/ios/Default@2x~iphone.png" width="640" />
     <gap:splash gap:platform="ios" height="1024" src="res/screen/ios/Default-Portrait~ipad.png" width="768" />
@@ -140,6 +128,16 @@
     <gap:splash gap:platform="ios" height="1334" src="res/screen/ios/Default-667h.png" width="750" />
     <gap:splash gap:platform="ios" height="2208" src="res/screen/ios/Default-736h.png" width="1242" />
     <gap:splash gap:platform="ios" height="1242" src="res/screen/ios/Default-Landscape-736h.png" width="2208" />
+    <gap:splash gap:density="xhdpi" gap:platform="android" src="res/screen/android/screen-xhdpi-portrait.png" />
+    <gap:splash gap:density="xhdpi" gap:platform="android" src="res/screen/android/screen-xhdpi-n7-portrait.png" />
+    <gap:splash gap:density="hdpi" gap:platform="android" src="res/screen/android/screen-hdpi-portrait.png" />
+    <gap:splash gap:density="mdpi" gap:platform="android" src="res/screen/android/screen-mdpi-portrait.png" />
+    <gap:splash gap:density="ldpi" gap:platform="android" src="res/screen/android/screen-ldpi-portrait.png" />
+    <gap:splash gap:density="xhdpi" gap:platform="android" height="800" src="res/screen/android/screen-xhdpi-n7-landscape.png" width="1280" />
+    <gap:splash gap:density="xhdpi" gap:platform="android" height="720" src="res/screen/android/screen-xhdpi-landscape.png" width="1280" />
+    <gap:splash gap:density="hdpi" gap:platform="android" height="480" src="res/screen/android/screen-hdpi-landscape.png" width="800" />
+    <gap:splash gap:density="mdpi" gap:platform="android" height="320" src="res/screen/android/screen-mdpi-landscape.png" width="480" />
+    <gap:splash gap:density="ldpi" gap:platform="android" height="200" src="res/screen/android/screen-ldpi-landscape.png" width="320" />
     <access origin="*" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
